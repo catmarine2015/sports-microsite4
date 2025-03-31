@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Microsite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <section id="main">
+        <div class="content">
+            <h1>Welcome to the Sports Microsite</h1>
+            <img src="slide_1.png" alt="Slide 1">
+            <img src="slide_2.png" alt="Slide 2">
+            <img src="slide_3.png" alt="Slide 3">
+            <div class="navigation">
+                <button onclick="scrollToSection('section1')">Part 1</button>
+                <button onclick="scrollToSection('section2')">Part 2</button>
+                <button onclick="scrollToSection('section3')">Part 3</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section1">
+        <h2>Sports Market Trends</h2>
+        <img src="slide_5.png" alt="Slide 5">
+        <img src="slide_6.png" alt="Slide 6">
+        <button class="popup-btn" data-popup="case1">View Case Study</button>
+    </section>
+
+    <section id="section2">
+        <h2>Fan Engagement Strategies</h2>
+        <img src="slide_8.png" alt="Slide 8">
+        <img src="slide_9.png" alt="Slide 9">
+        <img src="slide_10.png" alt="Slide 10">
+        <button class="popup-btn" data-popup="case2">View Case Study</button>
+    </section>
+
+    <section id="section3">
+        <h2>Sports Technology Innovations</h2>
+        <img src="slide_11.png" alt="Slide 11">
+        <img src="slide_12.png" alt="Slide 12">
+        <img src="slide_13.png" alt="Slide 13">
+        <img src="slide_14.png" alt="Slide 14">
+        <button class="popup-btn" data-popup="case3">View Case Study</button>
+    </section>
+
+    <div id="popup-case1" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <img src="slide_15.png" alt="Case Study 1 Slide">
+        </div>
+    </div>
+
+</body>
+</html>
